@@ -1,8 +1,9 @@
 Ext.application({
 	extend: 'ForFun.Application',
 	name: 'ForFun',
-//	mainView: 'ForFun.view.main.detail.DetailView',
-	mainView: 'ForFun.view.DetailView'
+	mainView: 'ForFun.view.main.detail.DetailView',
+	//mainView: 'ForFun.view.DetailView'
+	// above both main views are mentioned w.r.t definition of detailview
 });
 // Ext.application({
 // 	name: 'MyApp',
